@@ -1,0 +1,33 @@
+p {
+  margin: 1em;
+  color: #333;
+}
+#presentation {
+  background-color: rgb(236, 236, 236);
+}
+.special {
+  color: #0099cc;
+  font-style: italic;
+}
+#presentation em {
+  font-weight: bold;
+}
+.list {
+  border: 1px solid red;
+  margin: 20px;
+}
+.special + p {
+  text-transform: uppercase;
+}
+.urgent + * {
+  font-style: italic;
+}
+article :nth-child(2) {
+  background-color: yellow;
+}
+article :nth-child(4) {
+  border: 2px solid green;
+}
+aside ul :last-child {
+  color: red;
+}
